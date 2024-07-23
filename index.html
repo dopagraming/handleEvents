@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Mange Your Events</h1>
+    <div class="container">
+      <div class="add-box">
+        <h2>Add Event</h2>
+        <input
+          type="text"
+          class="event-name"
+          placeholder="Event Name"
+          required
+        />
+        <input type="text" class="orgenizer" placeholder="Orgenizer Name" />
+        <input class="event-date" type="date" />
+        <button class="add" onclick="addEvent()">Add</button>
+      </div>
+      <div class="events">
+        
+      </div>
+    </div>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
